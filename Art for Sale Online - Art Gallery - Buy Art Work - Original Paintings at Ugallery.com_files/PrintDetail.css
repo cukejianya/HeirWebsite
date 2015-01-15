@@ -1,0 +1,2460 @@
+﻿img
+{
+    border:none;
+}
+.ddl_main
+{
+    height:20px; 
+    padding-top:2px; 
+    padding-bottom:2px; 
+    /*position: absolute; */
+    font:12px Arial, Helvetica, sans-serif;
+    float:left;text-align:left;color:#000000;
+    margin-right:5px;
+}
+
+.ddl_main_selected_text
+{
+   cursor:pointer;
+   border:1px solid #6d6d6d;
+   padding:4px 20px 4px 5px;  
+   font:12px Arial, Helvetica, sans-serif;
+   color:#A54C9D;
+}
+
+
+.ddl_main_arrow
+{
+}
+.ddl_main_popup
+{
+    /*width:190px; 
+    #width:145px; */
+    margin-left:0px;
+    padding:5px;
+    background-color:#fff;
+    border:1px solid #6d6d6d;
+    display:none;
+    list-style:none;
+    margin-top:1px; 
+    z-index:7;
+}
+
+.select_frames .purple_text
+{
+    color: 
+#A54C9D;
+font-size: 12px;
+}
+
+.ddl_main_popup_item
+{
+    border-bottom:0px solid #ccc; 
+    /*padding-top:7px;*/
+    font-weight:bold;
+    color: #3D5259;
+}
+.ddl_main_popup_item_size
+{
+    border-bottom:0px solid #ccc; 
+    padding-top:7px;
+    font-weight:bold;
+    color: #3D5259;
+}
+
+.ddl_main_popup_item a
+{
+    color: #727272;
+    display: block;
+    font: 12px Arial,Helvetica,sans-serif;
+    padding: 0px 2px 0px 15px;
+    text-decoration: none;
+}
+.ddl_main_popup_item a:hover
+{
+    background-color: #77787d;
+    color: #FFFFFF;
+    font: 12px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+#divPrintSizes .ddl_main_popup_item a
+{
+    color: #727272;
+    display: block;
+    font: 12px Arial,Helvetica,sans-serif;
+    padding: 0px 2px 0px 15px;
+    text-decoration: none;
+}
+
+#divPrintSizes .ddl_main_popup_item a:hover
+{
+    background-color: #77787d;
+    color: #FFFFFF;
+    font: 12px Arial,Helvetica,sans-serif;
+    text-decoration: none;
+}
+
+.ddl_main_selected_text_inner
+{
+    color: #727272;
+}
+.ddl_main_selected_text
+{
+cursor: pointer;
+border: 1px solid 
+#727272;
+padding: 1px 5px 1px 5px;
+}
+
+/**********************************FRAMES***********************************************/
+
+.blank_frame_L_bg{
+	/*background:url(../images/New_Green/white_frame_bg.png) no-repeat;*/
+	width:568px;
+	height: 462px;
+}
+.blank_frame_L
+{
+    
+}	
+.blank_frame_L img
+{
+    
+}
+
+.blank_frame_P_bg
+{
+    width:568px;
+	height: 519px;
+}
+	
+.blank_frame_P
+{
+    
+}	
+.blank_frame_P img
+{
+    
+}
+
+.blank_frame_S_bg
+{
+    width:568px;
+	height: 462px;
+}
+	
+.blank_frame_S
+{
+    
+}	
+.blank_frame_S img
+{
+    width: 450px !important;
+}
+
+
+/*---------------------8 x 10---------------------------------------*/
+/*.maroon_8_10_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.maroon_8_10
+{
+  	height :274px;
+    width:216px;
+}
+
+.maroon_8_10 img
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_8_10_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Portrayed.jpg) no-repeat;
+	width:568px;
+		padding:113px;
+}
+.black_8_10
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_8_10 img
+{
+  height :274px;
+    width:216px;
+}
+
+.navy_8_10_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_8_10
+{
+  height :274px;
+    width:216px;
+}
+
+.navy_8_10 img
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_8_10_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_8_10
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_8_10 img
+{
+  height :274px;
+    width:216px;
+}
+
+.white_8_10_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.white_8_10
+{
+  	height :274px;
+    width:216px;
+}
+
+.white_8_10 img
+{
+  	 height :274px;
+    width:216px;
+}
+
+
+/*---------------------10 x 8---------------------------------------*/
+/*.maroon_10_8_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;	
+}
+.maroon_10_8
+{
+  	width :274px;
+    height:216px;
+}
+
+.maroon_10_8 img
+{
+  	width :274px;
+    height:216px;
+}
+
+
+
+.black_10_8_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+
+.black_10_8
+{
+  	width :274px;
+    height:216px;
+}
+
+.black_10_8 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+.navy_10_8_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_10_8
+{
+  	width :274px;
+    height:216px;
+}
+
+.navy_10_8 img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+
+.gold_10_8_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_10_8
+{
+  		width :274px;
+    height:216px;
+}
+
+.gold_10_8 img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+.white_10_8_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Landscape.jpg) no-repeat;
+	width:568px;
+padding:113px;
+}
+.white_10_8
+{
+ 	width :274px;
+    height:216px;
+}
+
+.white_10_8 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+
+
+/*---------------------11 x 14---------------------------------------*/
+/*.maroon_11_14_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.maroon_11_14
+{
+  	height :274px;
+    width:216px;
+}
+
+.maroon_11_14 img
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_11_14_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Portrayed.jpg) no-repeat;
+	width:568px;
+		padding:113px;
+}
+.black_11_14
+{
+  		height :274px;
+    width:216px;
+}
+
+.black_11_14 img
+{
+  	 	height :274px;
+    width:216px;
+}
+
+.navy_11_14_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_11_14
+{
+  		height :274px;
+    width:216px;
+}
+
+.navy_11_14 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.gold_11_14_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_11_14
+{
+  		height :274px;
+    width:216px;
+}
+
+.gold_11_14 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.white_11_14_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.white_11_14
+{
+  		height :274px;
+    width:216px;
+}
+
+.white_11_14 img
+{
+  		height :274px;
+    width:216px;
+}
+
+
+/*---------------------14 x 11---------------------------------------*/
+/*.maroon_14_11_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;	
+}
+.maroon_14_11
+{
+  		width :274px;
+    height:216px;
+}
+
+.maroon_14_11 img
+{
+  	width :274px;
+    height:216px;
+}
+
+
+
+.black_14_11_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+
+.black_14_11
+{
+  		width :274px;
+    height:216px;
+}
+
+.black_14_11 img
+{
+  		width :274px;
+    height:216px;
+}
+
+.navy_14_11_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_14_11
+{
+  	width :274px;
+    height:216px;
+}
+
+.navy_14_11 img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+
+.gold_14_11_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_14_11
+{
+  	width :274px;
+    height:216px;
+}
+
+.gold_14_11 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+
+.white_14_11_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Landscape.jpg) no-repeat;
+	width:568px;
+padding:113px;
+}
+.white_14_11
+{
+  		width :274px;
+    height:216px;
+}
+
+.white_14_11 img
+{
+  		width :274px;
+    height:216px;
+}
+
+/*---------------------16 x 20---------------------------------------*/
+/*.maroon_16_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.maroon_16_20
+{
+  	height :274px;
+    width:216px;
+}
+
+.maroon_16_20 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.black_16_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Portrayed.jpg) no-repeat;
+	width:568px;
+		padding:113px;
+}
+.black_16_20
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_16_20 img
+{
+  	 	height :274px;
+    width:216px;
+}
+
+.navy_16_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_16_20
+{
+  		height :274px;
+    width:216px;
+}
+
+.navy_16_20 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.gold_16_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_16_20
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_16_20 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.white_16_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.white_16_20
+{
+  		height :274px;
+    width:216px;
+}
+
+.white_16_20 img
+{
+  	height :274px;
+    width:216px;
+}
+
+
+/*---------------------20 x 16---------------------------------------*/
+/*.maroon_20_16_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;	
+}
+.maroon_20_16
+{
+  		width :274px;
+    height:216px;
+}
+
+.maroon_20_16 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+
+
+.black_20_16_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+
+.black_20_16
+{
+  		width :274px;
+    height:216px;
+}
+
+.black_20_16 img
+{
+  		width :274px;
+    height:216px;
+}
+
+.navy_20_16_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_20_16
+{
+  	width :274px;
+    height:216px;
+}
+
+.navy_20_16 img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+
+.gold_20_16_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_20_16
+{
+  		width :274px;
+    height:216px;
+}
+
+.gold_20_16 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+
+.white_20_16_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Landscape.jpg) no-repeat;
+	width:568px;
+padding:113px;
+}
+.white_20_16
+{
+  		width :274px;
+    height:216px;
+}
+
+.white_20_16 img
+{
+  		width :274px;
+    height:216px;
+}
+
+/*---------------------20 x 30---------------------------------------*/
+/*.maroon_20_30_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.maroon_20_30
+{
+  	height :274px;
+    width:216px;
+}
+
+.maroon_20_30 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.black_20_30_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Portrayed.jpg) no-repeat;
+	width:568px;
+		padding:113px;
+}
+.black_20_30
+{
+  		height :274px;
+    width:216px;
+}
+
+.black_20_30 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.navy_20_30_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_20_30
+{
+  	height :274px;
+    width:216px;
+}
+
+.navy_20_30 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.gold_20_30_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_20_30
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_20_30 img
+{
+  		height :274px;
+    width:216px;
+}
+
+.white_20_30_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Portrayed.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.white_20_30
+{
+  		height :274px;
+    width:216px;
+}
+
+.white_20_30 img
+{
+  		height :274px;
+    width:216px;
+}
+
+
+/*---------------------30 x 20---------------------------------------*/
+/*.maroon_30_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;	
+}
+.maroon_30_20
+{
+  		width :274px;
+    height:216px;
+}
+
+.maroon_30_20 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+
+
+.black_30_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+
+.black_30_20
+{
+  		width :274px;
+    height:216px;
+}
+
+.black_30_20 img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+.navy_30_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.navy_30_20
+{
+  		width :274px;
+    height:216px;
+}
+
+.navy_30_20 img
+{
+  	 width :274px;
+    height:216px;
+}
+
+
+
+.gold_30_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Landscape.jpg) no-repeat;
+	width:568px;
+	padding:113px;
+}
+.gold_30_20
+{
+  		width :274px;
+    height:216px;
+}
+
+.gold_30_20 img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+.white_30_20_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Landscape.jpg) no-repeat;
+	width:568px;
+padding:113px;
+}
+.white_30_20
+{
+  		width :274px;
+    height:216px;
+}
+
+.white_30_20 img
+{
+  	 	width :274px;
+    height:216px;
+}
+*/
+
+.maroon_P_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.maroon_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.maroon_P img
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_P_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.black_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_P img
+{
+  height :274px;
+    width:216px;
+}
+
+.navy_P_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.navy_P
+{
+  height :274px;
+    width:216px;
+}
+
+.navy_P img
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_P_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.gold_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_P img
+{
+  height :274px;
+    width:216px;
+}
+
+.white_P_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.white_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.white_P img
+{
+  	 height :274px;
+    width:216px;
+}
+
+
+/*---------------------10 x 8---------------------------------------*/
+.maroon_L_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+.maroon_L
+{
+  	width :274px;
+    height:216px;
+}
+
+.maroon_L img
+{
+  	width :274px;
+    height:216px;
+}
+
+
+
+.black_L_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+
+.black_L
+{
+  	width :274px;
+    height:216px;
+}
+
+.black_L img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+.navy_L_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+.navy_L
+{
+  	width :274px;
+    height:216px;
+}
+
+.navy_L img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+
+.gold_L_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+.gold_L
+{
+  		width :274px;
+    height:216px;
+}
+
+.gold_L img
+{
+  		width :274px;
+    height:216px;
+}
+
+
+.white_L_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Landscape.jpg) no-repeat;
+	width:568px;
+    height: 349px;
+    padding: 113px 0 0 113px;
+}
+.white_L
+{
+ 	width :274px;
+    height:216px;
+}
+
+.white_L img
+{
+  	 	width :274px;
+    height:216px;
+}
+
+/*----------------------SQUARE----------------------------*/
+.maroon_S_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.maroon_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.maroon_S img
+{
+  	height :216px;
+    width:216px;
+}
+
+.black_S_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.black_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.black_S img
+{
+  height :216px;
+    width:216px;
+}
+
+.navy_S_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.navy_S
+{
+  height :216px;
+    width:216px;
+}
+
+.navy_S img
+{
+  	height :216px;
+    width:216px;
+}
+
+.gold_S_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.gold_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.gold_S img
+{
+  height :216px;
+    width:216px;
+}
+
+.white_S_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.white_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.white_S img
+{
+  	 height :216px;
+    width:216px;
+}
+
+
+
+/*---------------------MINI-------------------------------*/
+.maroon_P_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.maroon_P_mini
+{
+  	 height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.maroon_P_mini img
+{
+    height :25px;
+    width:19px;
+}
+
+.black_P_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Portrayed_Mini.jpg) no-repeat;
+	float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.black_P_mini
+{
+   height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+    
+}
+
+.black_P_mini img
+{
+    height :25px;
+    width:19px;
+}
+
+.navy_P_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.navy_P_mini
+{
+   height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.navy_P_mini img
+{
+  	 height :25px;
+    width:19px;
+}
+
+.gold_P_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.gold_P_mini
+{
+  	 height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.gold_P_mini img
+{
+   height :25px;
+    width:19px;
+}
+
+.white_P_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+     width:43px;
+}
+.white_P_mini
+{
+   height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.white_P_mini img
+{
+  	 height :25px;
+    width:19px;
+}
+
+
+/*---------------------10 x 8---------------------------------------*/
+.maroon_L_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	float: left;
+    height: 48px;
+    margin-right: 7px;	
+}
+.maroon_L_mini
+{
+  	width :28px;
+    height:22px;
+     margin:13px 0px 0px 13px;
+}
+
+.maroon_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+
+
+.black_L_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+
+.black_L_mini
+{
+  	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.black_L_mini img
+{
+  	 width :28px;
+    height:22px;
+}
+
+.navy_L_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+.navy_L_mini
+{
+  	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.navy_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+
+
+.gold_L_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+.gold_L_mini
+{
+  	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.gold_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+
+.white_L_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+    float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+.white_L_mini
+{
+ 	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.white_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+/*----------------------Square-----------------------------*/
+.maroon_S_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ8_Maroon_Square_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.maroon_S_mini
+{
+  	 height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.maroon_S_mini img
+{
+    height :25px;
+    width:25px;
+}
+
+.black_S_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ13_Black_Square_Mini.jpg) no-repeat;
+	float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.black_S_mini
+{
+   height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+    
+}
+
+.black_S_mini img
+{
+    height :25px;
+    width:25px;
+}
+
+.navy_S_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ11_Navy_Square_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.navy_S_mini
+{
+   height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.navy_S_mini img
+{
+  	 height :25px;
+    width:25px;
+}
+
+.gold_S_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ14_Gold_SQuare_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.gold_S_mini
+{
+  	 height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.gold_S_mini img
+{
+   height :25px;
+    width:25px;
+}
+
+.white_S_mini_bg
+{
+  	background:url(../images/New_Green/PrintFrames/CRQ12_White_Square_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+     width:48px;
+}
+.white_S_mini
+{
+   height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.white_S_mini img
+{
+  	 height :25px;
+    width:25px;
+}
+
+
+#custom-tweet-button a {
+	   background: url('../../images/New_Green/p_tweet_it.jpg') 1px 1px no-repeat;
+	   display: block;
+	   width: 54px;
+	   height: 52px;
+}
+
+#custom-tweet-button1 a {
+	   background: url('../../images/New_Green/p_tweet_it.jpg') 1px 1px no-repeat;
+	   display: block;
+	   width: 54px;
+	   height: 52px;
+}
+
+
+#custom-tweet-button a:hover {
+	   background: url('../../images/New_Green/p_tweet_it.jpg') 1px 1px no-repeat;
+}
+#custom-tweet-button a:active {
+	   background: url('../../images/New_Green/p_tweet_it.jpg') 1px 1px no-repeat;
+}
+
+/* ------------ Frame Section ------------ */
+
+.frame_sizes{
+	color:#727272;
+	font-size:11px;
+}
+
+.frame_sizes p{
+	margin-top:0px;
+	margin-bottom:3px;
+}
+
+.frame_raw{
+	padding-bottom:10px;
+}
+.select_frames{
+	width:175px;
+	margin-top:23px;
+}
+.frame_color_thumb{
+	width:39px;
+	height:39px;
+	float:left;
+	margin-right:10px;
+	position:relative;
+}
+.frame_color_thumb_a
+{
+    border:1px #ccc solid;
+    display:block;
+    width:40px;
+    position:absolute;
+    top:0px;
+}
+
+.frame_color_thumb_a_selected,.frame_color_thumb_a:hover
+{
+    border:1px #E9B948 solid;
+    display:block;
+    width:40px;
+    position:absolute;
+    top:0px;
+}
+.frame_color_thumb_disable
+{
+    opacity: 0.1; 
+    filter: alpha(opacity=0.1); 
+    width:42px; 
+    height:40px;
+    position:absolute;
+    background-color:Black;
+}
+
+.frame_color_thumb a img{
+	border:0 none;
+	/*border:1px #ccc solid;*/
+}
+
+.frame_color_thumb a img:hover{
+	border:0 none;
+	/*border:1px #ADD79B solid;*/
+}
+/* --------------- End Frame Section ---------------- */
+
+.MainBody .buy_this_print_btn a{
+	background:url(../../images/buy_this_print.jpg) no-repeat;
+	width:168px;
+	height:32px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	line-height:32px;
+}
+
+
+ .MainBody .buy_original a{
+	background:url(../../images/buy_original_btn.jpg) no-repeat;
+	width:168px;
+	height:32px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	line-height:32px;
+}
+
+
+ a.sizeChart
+ {
+ background-image: url(../../images/size_chart_btn.jpg);
+background-position: center top;
+background-repeat: no-repeat;
+width: 44px;
+height: 52px;
+display: block;
+}
+.frame_bg
+{
+    background:none;
+}
+
+
+.maroon_P_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.maroon_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.maroon_P img
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_P_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ13_Black_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.black_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.black_P img
+{
+  height :274px;
+    width:216px;
+}
+
+.navy_P_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.navy_P
+{
+  height :274px;
+    width:216px;
+}
+
+.navy_P img
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_P_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.gold_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.gold_P img
+{
+  height :274px;
+    width:216px;
+}
+
+.white_P_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ12_White_Portrayed.jpg) no-repeat;
+	width:568px;
+	height:406px;
+	padding:113px 0px 0px 113px;
+}
+.white_P
+{
+  	height :274px;
+    width:216px;
+}
+
+.white_P img
+{
+  	 height :274px;
+    width:216px;
+}
+
+
+/*---------------------10 x 8---------------------------------------*/
+.maroon_L_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+.maroon_L
+{
+  	width :274px;
+    height:216px;
+}
+
+.maroon_L img
+{
+  	width :274px !important;
+    height:216px;
+}
+
+
+
+.black_L_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ13_Black_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+
+.black_L
+{
+  	width :274px;
+    height:216px;
+}
+
+.black_L img
+{
+  	 	width :274px !important;
+    height:216px;
+}
+
+.navy_L_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ11_Navy_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+.navy_L
+{
+  	width :274px;
+    height:216px;
+}
+
+.navy_L img
+{
+  		width :274px !important;
+    height:216px;
+}
+
+
+
+.gold_L_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ14_Gold_Landscape.jpg) no-repeat;
+	width:568px;
+	height: 349px;
+    padding: 113px 0 0 113px;
+}
+.gold_L
+{
+  		width :274px;
+    height:216px;
+}
+
+.gold_L img
+{
+  		width :274px !important;
+    height:216px;
+}
+
+
+.white_L_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ12_White_Landscape.jpg) no-repeat;
+	width:568px;
+    height: 349px;
+    padding: 113px 0 0 113px;
+}
+.white_L
+{
+ 	width :274px;
+    height:216px;
+}
+
+.white_L img
+{
+  	 	width :274px !important;
+    height:216px;
+}
+
+/*----------------------SQUARE----------------------------*/
+.maroon_S_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ8_Maroon_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.maroon_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.maroon_S img
+{
+  	height :216px;
+    width:216px !important;
+}
+
+.black_S_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ13_Black_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.black_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.black_S img
+{
+  height :216px;
+    width:216px !important;
+}
+
+.navy_S_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ11_Navy_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.navy_S
+{
+  height :216px;
+    width:216px;
+}
+
+.navy_S img
+{
+  	height :216px;
+    width:216px !important;
+}
+
+.gold_S_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ14_Gold_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.gold_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.gold_S img
+{
+  height :216px;
+    width:216px !important;
+}
+
+.white_S_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ12_White_Square.jpg) no-repeat;
+	width:568px;
+	height:349px;
+	padding:113px 0px 0px 113px;
+}
+.white_S
+{
+  	height :216px;
+    width:216px;
+}
+
+.white_S img
+{
+  	 height :216px;
+    width:216px !important;
+}
+
+
+
+/*---------------------MINI-------------------------------*/
+.maroon_P_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ8_Maroon_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.maroon_P_mini
+{
+  	 height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.maroon_P_mini img
+{
+    height :25px;
+    width:19px;
+}
+
+.black_P_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ13_Black_Portrayed_Mini.jpg) no-repeat;
+	float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.black_P_mini
+{
+   height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+    
+}
+
+.black_P_mini img
+{
+    height :25px;
+    width:19px;
+}
+
+.navy_P_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ11_Navy_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.navy_P_mini
+{
+   height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.navy_P_mini img
+{
+  	 height :25px;
+    width:19px;
+}
+
+.gold_P_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ14_Gold_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:43px;
+}
+.gold_P_mini
+{
+  	 height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.gold_P_mini img
+{
+   height :25px;
+    width:19px;
+}
+
+.white_P_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ12_White_Portrayed_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+     width:43px;
+}
+.white_P_mini
+{
+   height :25px;
+    width:19px;
+    margin:12px 0px 0px 12px;
+}
+
+.white_P_mini img
+{
+  	 height :25px;
+    width:19px;
+}
+
+
+/*---------------------10 x 8---------------------------------------*/
+.maroon_L_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ8_Maroon_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	float: left;
+    height: 48px;
+    margin-right: 7px;	
+}
+.maroon_L_mini
+{
+  	width :28px;
+    height:22px;
+     margin:13px 0px 0px 13px;
+}
+
+.maroon_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+
+
+.black_L_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ13_Black_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+
+.black_L_mini
+{
+  	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.black_L_mini img
+{
+  	 width :28px;
+    height:22px;
+}
+
+.navy_L_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ11_Navy_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+.navy_L_mini
+{
+  	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.navy_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+
+
+.gold_L_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ14_Gold_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+.gold_L_mini
+{
+  	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.gold_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+
+.white_L_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ12_White_Landscape_Mini.jpg) no-repeat;
+	width:56px;
+    float: left;
+    height: 48px;
+    margin-right: 7px;
+}
+.white_L_mini
+{
+ 	width :28px;
+    height:22px;
+    margin:13px 0px 0px 13px;
+}
+
+.white_L_mini img
+{
+  	width :28px;
+    height:22px;
+}
+
+/*----------------------Square-----------------------------*/
+.maroon_S_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ8_Maroon_Square_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.maroon_S_mini
+{
+  	 height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.maroon_S_mini img
+{
+    height :25px;
+    width:25px;
+}
+
+.black_S_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ13_Black_Square_Mini.jpg) no-repeat;
+	float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.black_S_mini
+{
+   height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+    
+}
+
+.black_S_mini img
+{
+    height :25px;
+    width:25px;
+}
+
+.navy_S_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ11_Navy_Square_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.navy_S_mini
+{
+   height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.navy_S_mini img
+{
+  	 height :25px;
+    width:25px;
+}
+
+.gold_S_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ14_Gold_SQuare_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+    width:48px;
+}
+.gold_S_mini
+{
+  	 height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.gold_S_mini img
+{
+   height :25px;
+    width:25px;
+}
+
+.white_S_mini_bg
+{
+  	background:url(../../images/New_Green/PrintFrames/CRQ12_White_Square_Mini.jpg) no-repeat;
+	 float: left;
+    height: 48px;
+    margin-right: 7px;
+     width:48px;
+}
+.white_S_mini
+{
+   height :25px;
+    width:25px;
+    margin:12px 0px 0px 12px;
+}
+
+.white_S_mini img
+{
+  	 height :25px;
+    width:25px;
+}
+
+.print_detail
+{
+    width:250px;
+    color: #727272;
+
+}
+.print_detail span.size_dim
+{
+    color: #3D5259;
+    font-size: 12px;
+}
+.print_detail .print_detail_copy
+{
+    list-style: inside;
+list-style-image:url(../../images/yellow_arrow.jpg);
+padding-bottom: 5px;
+color: 
+#727272;
+font-size: 13px;
+text-align:left;
+margin-left:10px;
+}
+.print_detail .print_detail_copy .print_dimension_details_list
+{
+    list-style:none;
+    list-style-image: none;
+    margin-top:10px;
+    margin-left:10px;
+}
+
+.print_detail .print_detail_copy .print_dimension_details_list li
+{
+    margin-bottom: 7px;
+    font-size:11px;
+}
+
+.print_detail .print_detail_copy .print_dimension_details_list li .offer_frame
+{
+    margin-left:7px;
+    font-style:italic;
+}
+
+.print_detail .print_detail_copy .print_dimension_details_list li .image_measure
+{
+    font-weight:bolder;
+}
+.divViewChart
+{
+    z-index:9;
+}
+.share_box td
+{
+    padding-left:10px;
+}
+.frame_prdct_des {
+font-size: 13px;
+color: 
+#727272;
+padding-right: 60px;
+text-align: justify;
+}
+
+.approved_artwork_message_section
+{
+    margin-left: 50px;
+margin-top: 40px;
+text-align:left;
+
+}
+
+.approved_artwork_message_section span
+{
+font-size: 14px;
+padding-bottom: 5px;
+color: #3D5259;
+}
+.approved_artwork_message_section div
+{
+    margin-top:10px;
+    color: #727272;
+    font-size:13px !important;
+}
+.approved_artwork_message_section div p
+{
+    font-size:12px !important;
+}
+.buy_original
+{
+    margin-top: 20px;
+}
+.button_section div.buy_this_print_btn
+{
+    text-align:left;
+    margin-left:-10px;
+}
+.paperwork_details div.buy_original
+{
+        text-align:left;
+        margin-left:-8px;
+}
+
+.select_frames .black_text
+{
+    color:Black;
+    font-size:12px;
+}
+#divBambooPaper
+{
+    font-size:12px !important;
+}
+#divBambooPaper p
+{
+    text-align:justify;
+    font-size:12px;
+    
+}
+#divCustomFrames
+{
+    font-size:12px !important;
+}
+#divCustomFrames p
+{
+    text-align:justify;
+    font-size:12px;
+    
+}
+.tumb_img{
+	/*width:60px;*/
+	height:46px;
+	border:1px #ccc solid;
+	float:left;
+	margin-right:7px;
+}
+
+.d_blue_num{
+	color:#3D5259;
+}
+.paperwork_details .medium_surface_information
+{
+color: 
+#8A8B8F;
+font-size: 13px;
+}
+
+.paperwork_details .signed_certificate
+{
+    font-size: 11px !important;
+}
+
+.button_section div.buy_this_print_btn_1
+{
+    text-align:left;
+}
+
+.buy_this_print_btn_1 a{
+	background:url(../../images/buy_this_print.jpg) no-repeat;
+	width:168px;
+	height:32px;
+	display:block;
+	font-size:14px;
+	font-weight:bold;
+	color:#fff;
+	text-transform:uppercase;
+	text-decoration:none;
+	text-align:center;
+	line-height:32px;
+}
